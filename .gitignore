@@ -1,0 +1,20 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+*.env
+
+# Ignore large dataset and temporary files
+*.h5ad
+*.csv
+*.log
+cache/
+data/
+results/
+
+# Ignore PyCharm settings
+.idea/
